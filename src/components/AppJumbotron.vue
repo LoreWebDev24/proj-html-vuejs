@@ -30,6 +30,7 @@
 <style lang="scss" scoped>
 @use '../styles/master.scss';
 
+// LE MISURE SONO TROPPO PRECISE E PENSATE SOLO PER UN LAYOUT FULL HD QUESTO PERCHE I BACKGROUND COMBINATI NON LI ABBIAMO VISTI A LEZIONE ED IL TEMPO PER FARLI E' POCO IN RELAZIONE ALLE COSE DA FARE , SONO CONSAPEVOLE CHE SU MONITOR 2K O FACENDO RESIZE DELLA VIEW PORT IL LAYOUT DEL SITO SAREBBE COMPLETAMENTE DA RIVEDERE
 .jumbotron {
     background-image: url('../../public/shape-bottom.png'), url('../../public/globe2.png'), url('../../public/globe3.png'), url('../../public/light.png'), url('../../public/right-man.png'), url('../../public/globe1.png'), url('../../public/left-man.png'), url('../../public/dots-left.png'), url('../../public/dots-right.png'), url('../../public/preloader.png');
     background-repeat: no-repeat;

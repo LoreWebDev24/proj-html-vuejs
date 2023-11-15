@@ -32,13 +32,14 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/master.scss';
 
+// CHIARAMENTE NULLA DI QUESTO E' PENSATO PER ESSERE RESPONSIVE 
 .jumbo{
     position: relative;
 }
 .video-prew {
     width: 1200px;
     position: absolute;
-    top: -290px;
+    top: -290px ;
 }
 
 figure {

@@ -24,7 +24,10 @@ html {
 body {
     // SOLO AI FINI DELL' ESERCIZIO CHE NON DEVE ESSERE RESPONSIVE 
     min-width: 1920px;
-    overflow-x: hidden;
+    min-height: 1080PX;
+    max-height: 1080px;
+    max-width: 1920px;
+    overflow: hidden;
 }
 
 img,
