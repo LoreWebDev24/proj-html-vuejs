@@ -17,9 +17,9 @@ export default {
             <div class="container">
                 <div class="row a-center">
                     <div class="col-2">
-                        <figure><a href="#"><img src="../../public/logo.png" alt="company-logo"></a></figure>
+                        <figure><a href="#"><img class="logo-main" src="../../public/logo.png" alt="company-logo"></a></figure>
                     </div>
-                    <div class="col-10 j-end ds-flex">
+                    <div class="col-10 ds-flex j-end">
                         <ul class="ds-flex gap-20 a-center">
                             <li v-for="headerLink, i in storeManager.headerLinks" :key="i"><a href="#">{{ headerLink }}</a>
                             </li>
@@ -47,5 +47,10 @@ header {
     // background-color: purple;
     padding: 20px;
     color: white;
+}
+
+a {
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 </style>

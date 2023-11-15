@@ -23,18 +23,26 @@
 @use '../styles/master.scss';
 
 .jumbotron {
-    background-image: url('../../public/dots-left.png'), url('../../public/dots-right.png'), linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
-    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-image: url('../../public/globe2.png'), url('../../public/globe3.png'), url('../../public/light.png'), url('../../public/right-man.png'), url('../../public/globe1.png'), url('../../public/left-man.png'), url('../../public/dots-left.png'), url('../../public/dots-right.png'), url('../../public/preloader.png');
+    background-repeat: no-repeat;
     background-position:
+        top 280px  left 1140px,
+        top -250px left 840px,
+        top 150px right 350px,
+        bottom 20px right 20px,
+        top 150px left 300px,
+        bottom 20px left 20px,
         bottom left,
-        right,
-        right;
+        top right,
+        center,
+        top;
     width: 100%;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 h1 {
     color: white;

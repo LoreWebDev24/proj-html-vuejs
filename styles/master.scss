@@ -22,14 +22,20 @@ html {
 }
 
 body {
-    // SOLO AI FINI DELL' ESERCIZIO CHE NON DEVE ESSERE RESPONSIVE
-    min-width: 1200px;
-    overflow-x: auto;
+    // SOLO AI FINI DELL' ESERCIZIO CHE NON DEVE ESSERE RESPONSIVE 
+    min-width: 1920px;
+    overflow-x: hidden;
 }
 
 img,
 figure {
     width: 100%;
+    display: block;
+}
+
+.logo-main {
+    width: 160px;
+    height:100%;
     display: block;
 }
 
