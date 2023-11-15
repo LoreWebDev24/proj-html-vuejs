@@ -39,7 +39,7 @@
         // globe 2nd
         top 240px left 1350px,
         // globe 3rd
-        top -250px left 840px,
+        top -260px left 760px,
         //    light
         top 110px right 350px,
         //   right man 
