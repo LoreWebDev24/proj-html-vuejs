@@ -33,10 +33,19 @@ figure {
     display: block;
 }
 
+h1,h2,h3 {
+    text-align: center;
+}
+
 // UTILITY AND A BOOTSRAP BE LIKE COL ROW SYSTEM
 
 .container {
     max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-mid{
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -136,5 +145,10 @@ figure {
     padding: 26px;
     border-radius: 2rem;
     color: black;
+    font-weight: 500;
+}
+
+.subtitle {
+    color: white;
     font-weight: 500;
 }
