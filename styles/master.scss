@@ -6,19 +6,31 @@
     box-sizing: border-box;
 }
 
-ul,ol,li,a,select,menu {
+ul,
+ol,
+li,
+a,
+select,
+menu {
     list-style: none;
     text-decoration: none;
+    color: currentColor;
 }
 
 html {
-	font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 body {
     // SOLO AI FINI DELL' ESERCIZIO CHE NON DEVE ESSERE RESPONSIVE
     min-width: 1200px;
     overflow-x: auto;
+}
+
+img,
+figure {
+    width: 100%;
+    display: block;
 }
 
 // UTILITY AND A BOOTSRAP BE LIKE COL ROW SYSTEM
@@ -38,51 +50,55 @@ body {
 }
 
 .col-1 {
-    flex-basis: calc((100%/12)*1) ;
+    flex-basis: calc((100%/12)*1);
 }
 
 .col-2 {
-    flex-basis: calc((100%/12)*2) ;
+    flex-basis: calc((100%/12)*2);
 }
 
 .col-3 {
-    flex-basis: calc((100%/12)*3) ;
+    flex-basis: calc((100%/12)*3);
 }
 
 .col-4 {
-    flex-basis: calc((100%/12)*4) ;
+    flex-basis: calc((100%/12)*4);
 }
 
 .col-5 {
-    flex-basis: calc((100%/12)*5) ;
+    flex-basis: calc((100%/12)*5);
 }
 
 .col-6 {
-    flex-basis: calc((100%/12)*6) ;
+    flex-basis: calc((100%/12)*6);
 }
 
 .col-7 {
-    flex-basis: calc((100%/12)*7) ;
+    flex-basis: calc((100%/12)*7);
 }
 
 .col-8 {
-    flex-basis: calc((100%/12)*8) ;
+    flex-basis: calc((100%/12)*8);
 }
 
 .col-9 {
-    flex-basis: calc((100%/12)*9) ;
+    flex-basis: calc((100%/12)*9);
 }
 
 .col-10 {
-    flex-basis: calc((100%/12)*10) ;
+    flex-basis: calc((100%/12)*10);
 }
 
 .col-11 {
-    flex-basis: calc((100%/12)*11) ;
+    flex-basis: calc((100%/12)*11);
 }
 
 .col-12 {
-    flex-basis: calc((100%/12)*9) ;
+    flex-basis: calc((100%/12)*9);
+}
+
+.ds-flex {
+    display: flex;
 }
 
 .fl-column {
@@ -93,10 +109,32 @@ body {
     justify-content: center;
 }
 
+.j-end {
+    justify-content: flex-end;
+}
+
 .a-center {
     align-items: center;
 }
 
 .a-self-center {
     align-self: center;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+// GENERAL STYLES 
+
+.pseudo-button {
+    background-color: rgb(255, 223, 238);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+    border-radius: 2rem;
+    color: black;
+    font-weight: 500;
 }
