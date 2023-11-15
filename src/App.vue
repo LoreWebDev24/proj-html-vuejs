@@ -23,11 +23,11 @@ export default {
 </script>
 
 <template>
-    <AppHeader />
+    <AppHeader class="app-header" />
     <AppMain />
     <AppFooter />
 </template>
 
 <style lang="scss">
-@use '../styles/master.scss'
+@use '../styles/master.scss';
 </style>

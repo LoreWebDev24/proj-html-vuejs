@@ -41,7 +41,8 @@ export default {
 
 header {
     height: 80px;
-    position: fixed;
+    position: absolute;
+    z-index: 999;
     width: 1200px;
     top: 0;
     // background-color: purple;
