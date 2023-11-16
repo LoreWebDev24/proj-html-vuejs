@@ -73,10 +73,10 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    background-image: url('../../public/smart.png'), url('../../public/smart4.png'), url('../../public/shape-top.png');
+    background-image:url('../../public/smart.png'), url('../../public/smart4.png');
     background-repeat: no-repeat;
     background-size: auto, 8%;
-    background-position: bottom 200px left, bottom 80px right 240px, bottom;
+    background-position:bottom 200px left, bottom 80px right 240px;
 }
 
 .container {

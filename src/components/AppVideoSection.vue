@@ -55,5 +55,9 @@ figure {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 9999;
+    cursor: pointer;
+}
+.play-btn-wrapper:hover {
+    background-color: rgb(238, 12, 238);
 }
 </style>
