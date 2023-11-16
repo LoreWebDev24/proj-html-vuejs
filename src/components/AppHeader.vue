@@ -59,4 +59,21 @@ a {
     font-weight: bold;
     font-size: 1.1rem;
 }
+
+@media (max-width: 1405px) {   
+  .container {     
+    width: 100%;
+  }  
+  a {
+    font-weight: bold;
+    font-size: 12px;
+  }   
+  header {
+    left: 0;
+  }
+  .col-10 {
+    justify-content: flex-start;
+  }
+ 
+}
 </style>
