@@ -4,6 +4,7 @@ import AppVideoSection from './AppVideoSection.vue'
 import AppSmartSection from './AppSmartSection.vue'
 import AppQuickFactSection from './AppQuickFactSection.vue'
 import AppFeaturedProductions from './AppFeaturedProductions.vue'
+import AppOurProcess from './AppOurProcess.vue'
 import StorageManager from '../../storeManager'
 export default {
     data() {
@@ -17,6 +18,7 @@ export default {
         AppSmartSection,
         AppQuickFactSection,
         AppFeaturedProductions,
+        AppOurProcess,
     }
 }
 </script>
@@ -27,6 +29,7 @@ export default {
     <AppSmartSection/>
     <AppQuickFactSection/>
     <AppFeaturedProductions/>
+    <AppOurProcess/>
 </template>
 
 <style lang="scss">
