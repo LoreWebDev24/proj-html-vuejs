@@ -3,6 +3,7 @@ import AppJumbotron from './AppJumbotron.vue'
 import AppVideoSection from './AppVideoSection.vue'
 import AppSmartSection from './AppSmartSection.vue'
 import AppQuickFactSection from './AppQuickFactSection.vue'
+import AppFeaturedProductions from './AppFeaturedProductions.vue'
 import StorageManager from '../../storeManager'
 export default {
     data() {
@@ -15,6 +16,7 @@ export default {
         AppVideoSection,
         AppSmartSection,
         AppQuickFactSection,
+        AppFeaturedProductions,
     }
 }
 </script>
@@ -24,6 +26,7 @@ export default {
     <AppVideoSection/>
     <AppSmartSection/>
     <AppQuickFactSection/>
+    <AppFeaturedProductions/>
 </template>
 
 <style lang="scss">

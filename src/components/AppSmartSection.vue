@@ -14,7 +14,7 @@ export default {
 <template>
     <section class="app-smart-section">
         <div class="container-small ds-flex fl-column gap-20">
-            <h3>
+            <h3 class="blue-title">
                 Our Love For Animation
             </h3>
             <h2>
@@ -69,18 +69,22 @@ export default {
 
 .app-smart-section {
     padding-top: 500px;
-    padding-bottom: 300px;
+    padding-bottom: 220px;
     display: flex;
     flex-direction: column;
     gap: 30px;
     background-image:url('../../public/smart.png'), url('../../public/smart4.png');
     background-repeat: no-repeat;
     background-size: auto, 8%;
-    background-position:bottom 200px left, bottom 80px right 240px;
+    background-position:bottom 200px left, bottom 20px right 14%;
 }
 
 .container {
     padding-top: 40px;
+}
+
+.blue-title {
+    font-size: 26px;
 }
 
 h3 {

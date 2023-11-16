@@ -53,10 +53,10 @@ export default {
 @use '../styles/master.scss';
 .app-quick-facts {
     background-image:url('../../public/globe.png'),url('../../public/shape-bottom.png'),url('../../public/shape-top.png'),url('../../public/counter-bg.png');
-    background-size: 28%,auto,auto,auto;
+    background-size: 28%,auto,auto,cover;
     background-repeat: no-repeat;
     background-position: center, bottom,top left 0px,center;
-    height: 580px;
+    padding: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;

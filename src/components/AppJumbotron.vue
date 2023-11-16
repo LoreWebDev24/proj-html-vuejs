@@ -62,7 +62,7 @@ export default {
         top 50px right,
         center,
         top;
-    height: 900px;
+    min-height: 900px;
     padding-top: 160px;
 }
 
