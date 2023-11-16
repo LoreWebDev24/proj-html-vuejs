@@ -23,22 +23,24 @@ export default {
             <div class="row">
                 <div class="col-4">
                     <div class="card">
-                    <div class="badge">
-                        <span>4</span>
-                    </div>
+                        <div class="badge">
+                            <span>4</span>
+                        </div>
                         <figure><img src="../../public/process2.png" alt=""></figure>
                         <h4 class="card-title">Pre Production</h4>
-                        <p>We'll take your idea and create a technical script which consist of action notes and animation descriptions</p>
+                        <p>We'll take your idea and create a technical script which consist of action notes and animation
+                            descriptions</p>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card">
-                    <div class="badge">
-                        <span>1</span>
-                    </div>
+                        <div class="badge">
+                            <span>1</span>
+                        </div>
                         <figure><img src="../../public/process1.png" alt=""></figure>
                         <h4 class="card-title">Pre Production</h4>
-                        <p>We'll take your idea and create a technical script which consist of action notes and animation descriptions</p>
+                        <p>We'll take your idea and create a technical script which consist of action notes and animation
+                            descriptions</p>
                     </div>
                 </div>
             </div>
@@ -56,14 +58,15 @@ export default {
 
 <style lang="scss" scoped>
 @use '../styles/master.scss';
+
 .app-our-process {
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     display: flex;
     justify-content: flex-end;
-    background-image: url('../../public/process-thumb.png');
+    background-image: url('../../public/process-thumb.png'), url('../../public/smart4.png');
     background-repeat: no-repeat;
-    background-position: top left -20px;
-    background-size: 40%;
+    background-position: top left -20px, bottom 20px  right 140px;
+    background-size: 40%, 6%;
 }
 
 .container-custom {
@@ -106,6 +109,7 @@ p {
     flex-basis: calc(590px / 2)-20px;
 
 }
+
 .card {
     padding: 30px;
     border: 1px solid rgb(231, 231, 231);
@@ -138,7 +142,7 @@ img {
 }
 
 figure {
-    background-color:rgb(254, 245, 240) ;
+    background-color: rgb(254, 245, 240);
     border-radius: 50%;
     width: 180px;
     height: 180px;
@@ -146,7 +150,9 @@ figure {
     justify-content: center;
     align-items: center;
 }
-.arrow-left-wrap,.arrow-right-wrap {
+
+.arrow-left-wrap,
+.arrow-right-wrap {
     width: 40px;
     height: 40px;
     display: flex;
@@ -157,7 +163,7 @@ figure {
     border: 1px solid rgb(231, 231, 231);
     border-radius: 50%;
 }
+
 .arrow-left-wrap {
     margin-left: 10px;
-}
-</style>
+}</style>
