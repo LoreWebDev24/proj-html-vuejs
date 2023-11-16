@@ -26,7 +26,7 @@ export default {
     <AppQuickFactSection/>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @use '../styles/master.scss';
 
 // CHIARAMENTE NULLA DI QUESTO E' PENSATO PER ESSERE RESPONSIVE 
