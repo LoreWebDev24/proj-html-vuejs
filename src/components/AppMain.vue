@@ -1,5 +1,8 @@
 <script>
 import AppJumbotron from './AppJumbotron.vue'
+import AppVideoSection from './AppVideoSection.vue'
+import AppSmartSection from './AppSmartSection.vue'
+import AppQuickFactSection from './AppQuickFactSection.vue'
 import StorageManager from '../../storeManager'
 export default {
     data() {
@@ -8,25 +11,19 @@ export default {
         }
     },
     components: {
-        AppJumbotron
+        AppJumbotron,
+        AppVideoSection,
+        AppSmartSection,
+        AppQuickFactSection,
     }
 }
 </script>
 
 <template>
     <AppJumbotron class="jumbo" />
-    <div class="video-wrapper">
-        <div class="figure">
-            <div class="container">
-                <figure>
-                <div class="play-btn-wrapper">
-                <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <img class="video-prew" src="../../public/middle.png" alt="">
-                </figure>
-            </div>
-        </div>
-    </div>
+    <AppVideoSection/>
+    <AppSmartSection/>
+    <AppQuickFactSection/>
 </template>
 
 <style lang="scss" scoped>
@@ -35,30 +32,5 @@ export default {
 // CHIARAMENTE NULLA DI QUESTO E' PENSATO PER ESSERE RESPONSIVE 
 .jumbo{
     position: relative;
-}
-.video-prew {
-    width: 1200px;
-    position: absolute;
-    top: -290px ;
-}
-
-figure {
-    position: relative;
-}
-
-.play-btn-wrapper {
-    width: 80px;
-    height: 80px;
-    border-radius: 999px;
-    color: white;
-    background-color: rgb(166, 22, 234);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
 }
 </style>

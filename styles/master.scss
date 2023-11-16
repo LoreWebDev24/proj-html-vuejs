@@ -25,9 +25,7 @@ body {
     // SOLO AI FINI DELL' ESERCIZIO CHE NON DEVE ESSERE RESPONSIVE 
     min-width: 1920px;
     min-height: 1080PX;
-    max-height: 1080px;
-    max-width: 1920px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 img,
@@ -50,6 +48,11 @@ h1,h2,h3 {
 
 .container {
     max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 700px;
     margin: 0 auto;
 }
 
