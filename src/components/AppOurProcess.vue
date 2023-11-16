@@ -23,15 +23,31 @@ export default {
             <div class="row">
                 <div class="col-4">
                     <div class="card">
+                    <div class="badge">
+                        <span>4</span>
+                    </div>
                         <figure><img src="../../public/process2.png" alt=""></figure>
+                        <h4 class="card-title">Pre Production</h4>
+                        <p>We'll take your idea and create a technical script which consist of action notes and animation descriptions</p>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card">
+                    <div class="badge">
+                        <span>1</span>
+                    </div>
                         <figure><img src="../../public/process1.png" alt=""></figure>
                         <h4 class="card-title">Pre Production</h4>
                         <p>We'll take your idea and create a technical script which consist of action notes and animation descriptions</p>
                     </div>
+                </div>
+            </div>
+            <div class="row gap-20">
+                <div class="arrow-left-wrap">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="arrow-right-wrap">
+                    <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
         </div>
@@ -99,6 +115,21 @@ p {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 6%;
+    width: 40px;
+    height: 80px;
+    background-color: rgb(247, 241, 255);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 14px;
+    border-radius: 0 0 1rem 1rem;
 }
 
 img {
@@ -114,5 +145,19 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.arrow-left-wrap,.arrow-right-wrap {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: rgb(231, 231, 231);
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 50%;
+}
+.arrow-left-wrap {
+    margin-left: 10px;
 }
 </style>
