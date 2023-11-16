@@ -39,6 +39,11 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/master.scss';
 
+.container{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+
 header {
     height: 80px;
     position: fixed;

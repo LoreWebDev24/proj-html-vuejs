@@ -36,7 +36,7 @@ export default {
                     <div class="quick-card">
                         <h2>25+</h2>
                         <h4>Team Members</h4>
-                    </div>
+                    </div>                        
                 </div>
                 <div class="col-3 card-4">
                     <div class="quick-card">
@@ -51,13 +51,12 @@ export default {
 
 <style lang="scss" scoped>
 @use '../styles/master.scss';
-
 .app-quick-facts {
-    background-image: url('../../public/globe.png'), url('../../public/shape-bottom.png'), url('../../public/shape-top.png'), url('../../public/counter-bg.png');
-    background-size: 28%, auto, auto, auto;
+    background-image:url('../../public/globe.png'),url('../../public/shape-bottom.png'),url('../../public/shape-top.png'),url('../../public/counter-bg.png');
+    background-size: 28%,auto,auto,auto;
     background-repeat: no-repeat;
-    background-position: center, bottom, top left 0px, center;
-    height: 60vh;
+    background-position: center, bottom,top left 0px,center;
+    height: 580px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,4 +88,5 @@ h4 {
     flex-direction: column;
     padding: 45px;
 }
+
 </style>
