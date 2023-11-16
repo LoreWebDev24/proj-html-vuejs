@@ -17,7 +17,8 @@ export default {
             <div class="container">
                 <div class="row a-center">
                     <div class="col-2">
-                        <figure><a href="#"><img class="logo-main" src="../../public/logo.png" alt="company-logo"></a></figure>
+                        <figure><a href="#"><img class="logo-main" src="../../public/logo.png" alt="company-logo"></a>
+                        </figure>
                     </div>
                     <div class="col-10 ds-flex j-end">
                         <ul class="ds-flex gap-20 a-center">
@@ -30,6 +31,9 @@ export default {
                             </li>
                         </ul>
                     </div>
+                    <div class="hamb-menu col-10 ds-flex j-end d-none">
+                        <span><i class="fa-solid fa-bars"></i></span>
+                    </div>
                 </div>
             </div>
         </header>
@@ -39,7 +43,7 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/master.scss';
 
-.container{
+.container {
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
 }
@@ -60,20 +64,55 @@ a {
     font-size: 1.1rem;
 }
 
-@media (max-width: 1405px) {   
-  .container {     
-    width: 100%;
-  }  
-  a {
-    font-weight: bold;
-    font-size: 12px;
-  }   
-  header {
-    left: 0;
-  }
-  .col-10 {
-    justify-content: flex-start;
-  }
- 
+@media (max-width: 1405px) {
+    .container {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    a {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    header {
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 100%;
+    }
+
+    .col-10 {
+        justify-content: flex-end;
+    }
+
+    .logo-main {
+        padding-right: 20px;
+    }
+
 }
-</style>
+
+@media (max-width: 870px) {
+    .col-10 {
+        display: none;
+    }
+
+    .hamb-menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    i {
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 218px) {
+
+    header {
+        overflow: hidden;
+    }
+    .logo-main {
+        width: 80px;
+    }
+}</style>
