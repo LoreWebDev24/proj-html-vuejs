@@ -38,7 +38,7 @@ export default {
                             <span>1</span>
                         </div>
                         <figure><img src="../../public/process1.png" alt=""></figure>
-                        <h4 class="card-title">Pre Production</h4>
+                        <h4 class="card-title">Scripting</h4>
                         <p>We'll take your idea and create a technical script which consist of action notes and animation
                             descriptions</p>
                     </div>
@@ -65,8 +65,8 @@ export default {
     justify-content: flex-end;
     background-image: url('../../public/process-thumb.png'), url('../../public/smart4.png');
     background-repeat: no-repeat;
-    background-position: top left -20px, bottom 20px  right 140px;
-    background-size: 40%, 6%;
+    background-position: top left -200px, bottom 20px  right 280px;
+    background-size: 800px , 5%;
 }
 
 .container-custom {
@@ -95,10 +95,12 @@ h4 {
 
 .card-title {
     font-size: 24px;
+    font-weight: 500;
 }
 
 p {
     text-align: center;
+    line-height: 1.5rem;
 }
 
 .col-4:not(:last-child) {
@@ -137,8 +139,8 @@ p {
 }
 
 img {
-    width: 120px;
-    height: 100px;
+    width: 100px;
+    height: 90px;
 }
 
 figure {
