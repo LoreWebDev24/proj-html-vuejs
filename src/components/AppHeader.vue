@@ -41,7 +41,7 @@ export default {
 
 header {
     height: 80px;
-    position: absolute;
+    position: fixed;
     z-index: 999;
     width: 1200px;
     top: 0;

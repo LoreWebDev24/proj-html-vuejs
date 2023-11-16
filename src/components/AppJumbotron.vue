@@ -53,7 +53,6 @@
         top 50px right,
         center,
         top;
-    width: 100%;
     height: 94vh;
     padding-top: 160px;
 }
