@@ -89,6 +89,7 @@ h4 {
 .copy {
     color: rgb(79, 66, 197);
     font-weight: 500;
+    cursor: pointer;
 }
 
 .social-wrapper {
