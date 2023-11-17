@@ -6,11 +6,11 @@ import AppQuickFactSection from './AppQuickFactSection.vue'
 import AppFeaturedProductions from './AppFeaturedProductions.vue'
 import AppOurProcess from './AppOurProcess.vue'
 import AppMagicTeam from './AppMagicTeam.vue'
-import StorageManager from '../../storeManager'
+import storeManager from '../../storeManager'
 export default {
     data() {
         return {
-            StorageManager,
+            storeManager,
         }
     },
     components: {

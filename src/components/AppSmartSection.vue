@@ -1,9 +1,9 @@
 <script>
-import StorageManager from '../../storeManager'
+import storeManager from '../../storeManager'
 export default {
     data() {
         return {
-            StorageManager,
+            storeManager,
         }
     },
     components: {

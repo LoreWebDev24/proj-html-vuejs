@@ -44,8 +44,8 @@ export default {
 @use '../styles/master.scss';
 
 .container {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 header {
