@@ -5,6 +5,7 @@ import storeManager from '../storeManager'
 import AppHeader from "./components/AppHeader.vue"
 import AppMain from './components/AppMain.vue'
 import AppFooter from './components/AppFooter.vue'
+import AppBoxScroll from './components/AppBoxScroll.vue'
 // VUE
 export default {
     data() {
@@ -15,9 +16,17 @@ export default {
     components: {
         AppHeader,
         AppMain,
-        AppFooter
+        AppFooter,
+        AppBoxScroll
     },
     methods: {
+        goOnPageTop(){
+            window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+            })
+        }
     }
 }
 </script>
@@ -26,8 +35,18 @@ export default {
     <AppHeader class="app-header" />
     <AppMain />
     <AppFooter />
+    <AppBoxScroll class="app-box-scroll" @click="goOnPageTop()"/>
 </template>
 
 <style lang="scss">
 @use '../styles/master.scss';
+template {
+    position: relative;
+}
+
+.app-box-scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
 </style>
