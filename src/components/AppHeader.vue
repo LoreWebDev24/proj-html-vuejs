@@ -26,7 +26,7 @@ export default {
                             </li>
                             <li>
                                 <div class="pseudo-button">
-                                    <span><a href="#">Get a Quote</a></span>
+                                    <span><a href="#">{{storeManager.headerPseudoButton}}</a></span>
                                 </div>
                             </li>
                         </ul>
