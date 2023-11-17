@@ -7,6 +7,8 @@ import AppFeaturedProductions from './AppFeaturedProductions.vue'
 import AppOurProcess from './AppOurProcess.vue'
 import AppMagicTeam from './AppMagicTeam.vue'
 import AppSponsors from './AppSponsors.vue'
+import AppNewsletterSubscription from './AppNewsletterSubscription.vue'
+// STORE MANAGER 
 import storeManager from '../../storeManager'
 export default {
     data() {
@@ -22,7 +24,8 @@ export default {
         AppFeaturedProductions,
         AppOurProcess,
         AppMagicTeam,
-        AppSponsors
+        AppSponsors,
+        AppNewsletterSubscription
     }
 }
 </script>
@@ -36,6 +39,7 @@ export default {
     <AppOurProcess/>
     <AppMagicTeam/>
     <AppSponsors/>
+    <AppNewsletterSubscription/>
 </template>
 
 <style lang="scss">
