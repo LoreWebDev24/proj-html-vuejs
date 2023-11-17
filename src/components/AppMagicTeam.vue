@@ -18,7 +18,7 @@ export default {
             <h2>Let Us Animate Your <br>
                 Project <br>
             </h2>
-            <h4>We create new worlds? Let's collaborate and create engaging,effective, <br>
+            <h4>We create new worlds! Let's collaborate and create engaging,effective, <br>
                 award-winning animations</h4>
         </div>
         <div class="container">
@@ -115,11 +115,14 @@ img {
 }
 
 .card-name {
-    font-size: 28px;
+    font-size: 24px;
+    color: rgb(45, 27, 76);
+    padding-bottom: 20px;
 }
 
 .card-role {
     font-weight: 300;
+    font-size: 20px;
 }
 
 .social-wrapper {

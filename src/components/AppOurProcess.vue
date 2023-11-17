@@ -24,7 +24,7 @@ export default {
                 <div class="col-4">
                     <div class="card">
                         <div class="badge">
-                            <span>4</span>
+                            <span class="badge-span">4</span>
                         </div>
                         <figure><img src="../../public/process2.png" alt=""></figure>
                         <h4 class="card-title">Pre Production</h4>
@@ -35,7 +35,7 @@ export default {
                 <div class="col-4">
                     <div class="card">
                         <div class="badge">
-                            <span>1</span>
+                            <span class="badge-span">1</span>
                         </div>
                         <figure><img src="../../public/process1.png" alt=""></figure>
                         <h4 class="card-title">Scripting</h4>
@@ -154,15 +154,20 @@ figure {
     align-items: center;
 }
 
+.badge-span {
+    color: rgb(138, 129, 156);
+    font-weight: 800;
+}
+
 .arrow-left-wrap,
 .arrow-right-wrap {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent;
-    color: rgb(231, 231, 231);
+    color: gray;
     border: 1px solid rgb(231, 231, 231);
     border-radius: 50%;
     cursor: pointer;

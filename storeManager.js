@@ -4,6 +4,7 @@ import { reactive } from 'vue'
 
 const store = reactive({
 
+    headerLogo: '../../public/logo.png',
     headerLinks: ['Home','About Us','Portfolio','Our Process','Pricing','Blog','Contact'],
     headerPseudoButton:'Get a Quote',
     magicCards:[
@@ -23,7 +24,9 @@ const store = reactive({
             role : '2d animator e Compositor'
         }
     ],
-    sponsorsImages: ['../../public/sponsor1.png','../../public/sponsor2.png','../../public/sponsor3.png','../../public/sponsor4.png','../../public/sponsor5.png','../../public/sponsor6.png']
+    sponsorsImages: ['../../public/sponsor1.png','../../public/sponsor2.png','../../public/sponsor3.png','../../public/sponsor4.png','../../public/sponsor5.png','../../public/sponsor6.png'],
+    footerLogo: '../../public/footer-logo.png',
+    footerLinks: ['About Us','Portfolio','Pricing','Career','Contact']
 })
 
 export default store;

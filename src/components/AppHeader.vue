@@ -17,7 +17,7 @@ export default {
             <div class="container">
                 <div class="row a-center">
                     <div class="col-2">
-                        <figure><a href="#"><img class="logo-main" src="../../public/logo.png" alt="company-logo"></a>
+                        <figure><a href="#"><img class="logo-main" :src="storeManager.headerLogo" alt="company-logo"></a>
                         </figure>
                     </div>
                     <div class="col-10 ds-flex j-end">

@@ -22,7 +22,7 @@ export default {
                 Storytelling
             </h2>
             <h4 class="subtitle">
-                We are a character-driven animation studio striving to make high-quality animations.
+                Join our newsletetr for tips on how to elevate your brand through storytelling
             </h4>
         </div>
         <div class="container-custom">
