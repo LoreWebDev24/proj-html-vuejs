@@ -77,6 +77,7 @@ export default {
 h3 {
     color: rgb(82, 56, 197);
     text-align: left;
+    font-size: 26px;
 }
 
 h2 {

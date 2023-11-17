@@ -1,5 +1,7 @@
 import { reactive } from 'vue'
 
+// NOTA : I PERCORSI DELLE IMMAGINI SONO ACCESSIBILI E SCRITTI IN QUESTO MODO PER ESSERE UN PERCORSO ACCESSIBILE DAI COMPONENTS 
+
 const store = reactive({
 
     headerLinks: ['Home','About Us','Portfolio','Our Process','Pricing','Blog','Contact'],
@@ -20,7 +22,8 @@ const store = reactive({
             name: 'Tomas Nash',
             role : '2d animator e Compositor'
         }
-    ]
+    ],
+    sponsorsImages: ['../../public/sponsor1.png','../../public/sponsor2.png','../../public/sponsor3.png','../../public/sponsor4.png','../../public/sponsor5.png','../../public/sponsor6.png']
 })
 
 export default store;
