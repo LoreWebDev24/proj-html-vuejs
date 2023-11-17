@@ -40,13 +40,4 @@ export default {
 
 <style lang="scss">
 @use '../styles/master.scss';
-template {
-    position: relative;
-}
-
-.app-box-scroll {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-}
 </style>

@@ -19,16 +19,19 @@ export default {
 
 <style lang="scss" scoped>
 @use '../styles/master.scss';
-    .scroll-box {
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(34, 29, 111);
-        border-radius: 5px;
-        color: white;
-        cursor: pointer;
-        border: none;
-    }
+.scroll-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 29, 111);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
 </style>
