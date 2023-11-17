@@ -36,6 +36,18 @@ export default {
                     </div>
                 </div>
             </div>
+            <div class="arrow-menu row gap-20 a-center j-center">
+                <div class="arrow-left-wrap">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="menu-dot"></div>
+                <div class="menu-dot menu-dot-selected"></div>
+                <div class="menu-dot"></div>
+                <div class="menu-dot"></div>
+                <div class="arrow-right-wrap">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -46,9 +58,9 @@ export default {
 .app-magic-team {
     background-image: url('../../public/shape.png'), url('../../public/shape.png');
     background-repeat: no-repeat;
-    background-position: bottom -100px left, right;
+    background-position: bottom -110px left, right;
     background-size: contain;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 }
 
 .titles-container {
@@ -126,5 +138,36 @@ img {
     background-color: white;
     color: rgb(79, 55, 213);
     border: 1px solid lightgray;
+}
+
+.arrow-menu {
+    padding-top: 30px;
+}
+
+.menu-dot {
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu-dot-selected {
+    background-color: rgb(255, 122, 31);
+    cursor: pointer;
+}
+
+.arrow-left-wrap,
+.arrow-right-wrap {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
 }
 </style>

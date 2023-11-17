@@ -164,6 +164,7 @@ figure {
     color: rgb(231, 231, 231);
     border: 1px solid rgb(231, 231, 231);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .arrow-left-wrap {
