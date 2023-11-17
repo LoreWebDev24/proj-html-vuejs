@@ -26,7 +26,7 @@ export default {
                             </li>
                             <li>
                                 <div class="pseudo-button">
-                                    <span><a href="#">{{storeManager.headerPseudoButton}}</a></span>
+                                    <span>{{storeManager.headerPseudoButton}}</span>
                                 </div>
                             </li>
                         </ul>
@@ -46,6 +46,11 @@ export default {
 .container {
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    padding: 5px;
+}
+
+.pseudo-button {
+    border: 1px solid transparent;
 }
 
 header {
@@ -62,6 +67,16 @@ header {
 a {
     font-weight: bold;
     font-size: 1.1rem;
+}
+
+a:hover {
+    color: rgb(234, 117, 67);
+}
+
+.pseudo-button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
 
 @media (max-width: 1405px) {

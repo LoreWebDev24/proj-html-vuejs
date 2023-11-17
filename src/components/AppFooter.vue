@@ -109,4 +109,9 @@ h4 {
     color: rgb(79, 55, 213);
     border: 1px solid lightgray;
 }
+
+.social-wrapper span:hover {
+  background-color: rgb(255, 121, 23);
+  color: white;
+}
 </style>

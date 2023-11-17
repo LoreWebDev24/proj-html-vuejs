@@ -140,15 +140,24 @@ img {
     text-align: center;
     font-weight: 400;
 }
-
 .card-1 {
-    background-color: rgb(255, 244, 238);
+    background-color: rgba(255, 244, 238, 0.5);
 }
 
 .card-2 {
+    background-color: rgba(246, 245, 253,0.5);
+}
+.card-3 {
+    background-color: rgba(255, 233, 235,0.5);
+}
+.card-1:hover {
+    background-color: rgb(255, 244, 238);
+}
+
+.card-2:hover {
     background-color: rgb(246, 245, 253);
 }
 
-.card-3 {
+.card-3:hover {
     background-color: rgb(255, 233, 235);
 }</style>

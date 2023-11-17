@@ -173,6 +173,12 @@ figure {
     cursor: pointer;
 }
 
+.arrow-left-wrap:hover,
+.arrow-right-wrap:hover {
+    background-color: rgb(255, 122, 30);
+    color: white;
+}
+
 .arrow-left-wrap {
     margin-left: 10px;
 }</style>

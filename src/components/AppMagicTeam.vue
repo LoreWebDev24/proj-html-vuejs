@@ -174,4 +174,14 @@ img {
     border-radius: 50%;
     cursor: pointer;
 }
+
+.arrow-left-wrap:hover,
+.arrow-right-wrap:hover {
+    background-color: rgb(255, 122, 30);
+    color: white;
+}
+.social-wrapper span:hover {
+  background-color: rgb(255, 121, 23);
+  color: white;
+}
 </style>
