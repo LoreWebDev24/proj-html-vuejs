@@ -4,7 +4,17 @@ export default {
     data() {
         return {
             storeManager,
+            scrollposition: null
+
         }
+    },
+    methods: {
+        updatescroll() {
+            this.scrollposition = window.scrollY
+        }
+    },
+    mounted() {
+        window.addEventListener('scroll', this.updatescroll);
     },
     components: {
     }
@@ -14,7 +24,7 @@ export default {
 <template>
     <div class="header wrapper ds-flex j-center a-center">
         <header>
-            <div class="container">
+            <div class="container" :class="{change_color: scrollposition > 50}">
                 <div class="row a-center">
                     <div class="col-2">
                         <figure><a href="#"><img class="logo-main" :src="storeManager.headerLogo" alt="company-logo"></a>
@@ -26,7 +36,7 @@ export default {
                             </li>
                             <li>
                                 <div class="pseudo-button">
-                                    <span>{{storeManager.headerPseudoButton}}</span>
+                                    <span>{{ storeManager.headerPseudoButton }}</span>
                                 </div>
                             </li>
                         </ul>
@@ -44,10 +54,12 @@ export default {
 @use '../styles/master.scss';
 
 .container {
-    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 5px;
 }
+.change_color {
+    background-color: rgba(0, 0, 0, 0.1);
+   }
 
 .pseudo-button {
     border: 1px solid transparent;
@@ -128,7 +140,9 @@ a:hover {
     header {
         overflow: hidden;
     }
+
     .logo-main {
         width: 80px;
     }
-}</style>
+}
+</style>
