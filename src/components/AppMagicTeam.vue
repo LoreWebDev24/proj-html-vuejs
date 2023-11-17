@@ -56,10 +56,10 @@ export default {
 @use '../styles/master.scss';
 
 .app-magic-team {
-    background-image: url('../../public/shape.png'), url('../../public/shape.png');
+    background-image: url('../../public/shape.png'), url('../../public/shape2.png');
     background-repeat: no-repeat;
-    background-position: bottom -110px left, right;
-    background-size: contain;
+    background-position: bottom left, top right;
+    background-size: 40%, contain;
     padding-bottom: 100px;
 }
 
